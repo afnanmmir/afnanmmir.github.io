@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <title>Afnan Mir - Extracurriculars</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse py-4">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Afnan Mir</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="{{ url_for('home') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Home</a></li>
+            <li><a href="{{ url_for('about_me') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">About Me</a></li>
+            <li><a href="{{ url_for('coursework') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Coursework</a></li>
+            <li><a href="{{ url_for('personal_projects') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Personal Projects</a></li>
+            <li><a href = "{{ url_for('organizations') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Extracurriculars</a></li>
+            <li><a href="{{ url_for('contact_me') }}"  style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class = "extras">
+        <h1 style="text-align: center; font-family:'Roboto'; font-size: 50px;">Extracurriculars</h1>
+        <h3 style="text-align: center; font-family:'Roboto'; font-size: 15px;"> School isn't just for coursework</h3>
+      <div class = "col-left">
+        <h6 style="text-align: left; font-family:'Roboto'; font-size: 15px; font-weight: 1000;font-size: 20pt;">Longhorn Racing Solar</h6>
+        <div class="col-left">
+          <img src="/static/img/LHRSolar.png" alt="LHR-Pic">
+        </div>
+      </div>
+      <div class = "col-right">
+          <ul style="font-size: 18px;">
+            <br><br>
+            <li>Array/MPPT Lead</li>
+            <li>The goal for LHR Solar is to build a car powered by solar panels to be raced around a circiut</li>
+            <li>As Array Lead, I am responisble with all things to do with power generation and power efficieny</li>
+            <li>I spend most of my time researching, implmenting, and refining various Maximum Power Point Tracking (MPPT) algorithms to maximize efficiency in the solar array</li>
+            <li>Algorithms are tested and optimized using a team-made simulator that models the behavior of solar array modules given temperature and irradiance conditions</li>
+            <li>We have done significant work in the research of MPPT algorithms under partial shading conditions with multiple local maxima</li>
+            <li>I also look over the manufacturing PCBs and hardware for the arrays</li>
+            <li>Click <a href="https://github.com/lhr-solar/Array-Simulation">here</a> for the github to the array team.</li>
+          </ul>
+      </div>
+      <div class = "col-left">
+            <h6 style="text-align: left; font-family:'Roboto'; font-size: 15px; font-weight: 1000;font-size: 20pt;">UT MLDS</h6>
+          <img src="/static/img/mlds.png" alt="MLDS">
+      </div>
+      <div class = "col-right">
+        <ul style="font-size: 18px;">
+            <br><br><br>
+            <li>Member of UT Machine Learning and Data Science club</li>
+            <li>Attend weekly meetings learning about various machine learning algorithms and topics.</li>
+            <li>Participate in weekly reading group where we read a research paper on a machine learning topic and discuss it.</li>
+            <br><br><br><br><br>
+        </ul>
+      </div>
+      <div class="col-left">
+        <h6 style="text-align: left; font-family:'Roboto'; font-size: 15px; font-weight: 1000;font-size: 20pt;">UT IEEE</h6>
+          <img src="/static/img/UTIEEE.jpg" alt="IEEE" width="250" height="250">
+      </div>
+      <div class="col-right">
+        <br><br><br>
+        <ul style="font-size: 18px;">
+            <li>Member of UT IEEE</li>
+            <li>Participate in various workshops and social events hosted by the organizations including but not limted to:
+                <ul>
+                    <li>Corporate Q&A panels</li>
+                    <li>Natural Language Processing Workshop</li>
+                    <li>Alumni Q&A panels</li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+    </div>
+</body>

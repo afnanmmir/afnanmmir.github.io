@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <title>Afnan Mir - Personal Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse py-4">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Afnan Mir</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="{{ url_for('home') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Home</a></li>
+            <li><a href="{{ url_for('about_me') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">About Me</a></li>
+            <li><a href="{{ url_for('coursework') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Coursework</a></li>
+            <li><a href="{{ url_for('personal_projects') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Personal Projects</a></li>
+            <li><a href = "{{ url_for('organizations') }}" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Extracurriculars</a></li>
+            <li><a href="{{ url_for('contact_me') }}"  style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; letter-spacing: 2px;">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="projects">
+        <h1 style="text-align: center; font-family:'Roboto'; font-size: 50px;">Personal Projects</h1>
+        <h3 style="text-align: center; font-family:'Roboto'; font-size: 15px;"> What good is learning something if I can't apply it somewhere!</h3>
+        <div class="NBA-Predictor">
+            <h6 style="text-align: left; font-family:'Roboto'; font-size: 15px; font-weight: 1000;font-size: 20pt;"><a href="https://github.com/afnan1230/NBA-Game_Predictor">NBA Game Predictor</a></h6>
+            <div class="col-left">
+              <img src="/static/img/NBA.png" alt="NBA-Pic" width="100" height="200">
+            </div>
+            <div class = "col-right">
+              <ul style="font-size: 18px;">
+                  <li>Scraped historical data of advanced statistics from all NBA teams as well as outcomes of their games in multiple seasons</li>
+                  <li>Used data in conjunction with various classifying models to predict the outcomes of games during the 2019-2020 NBA season</li>
+                  <li>Models produced an 82% accuracy for its output</li>
+                  <li>This project was completed using python and libraries such as scikit-learn, numpy, and pandas<br><br><br><br><br><br></li>
+              </ul>
+          </div>
+        </div>
+        <div class="DFS-BFS">
+            <div class = "col-left">
+              <h6 style="text-align: left; font-family: 'Roboto';font-weight: 1000;font-size: 20pt;"><a href="https://github.com/afnan1230/DFS-BFS-Visualization">DFS/BFS Visualization</a></h6>
+              <img src="/static/img/Graphs.png" alt="DFS-BFS">
+            </div>
+            <div class = "col-right">
+              <ul style="font-size: 18px">
+                <br><br><br>
+                <li>Programmed a simple visual demonstration of Depth First Search and Breath First Search algorithms on a random maze.</li>
+                <li>Implemented using python and the pygame module to create the GUI aspect</li>
+                <br><br><br><br><br>
+              </ul>
+            </div>
+        </div>
+        <div class="Spotify-rewind">
+          <div class ="col-left">
+            <h6 style="text-align: left; font-family: 'Roboto';font-weight: 1000;font-size: 20pt;"><a href="https://github.com/afnan1230/Spotify-Rewind">Spotify Rewind Web App</a></h6>
+            <img src="/static/img/spotify.png" alt="Spotify">
+          </div>
+         <div class = "col-right">
+          <ul style="font-size: 18px;">
+            <br><br>
+            <li>Use of the Flask library, HTML, and CSS to create the frontend website design</li>
+            <li>Spotipy API library used to authenticate user entry into the website and retrieve user data from their spotify account.</li>
+            <li>Data was used to display user's listening history over different periods of time, and a popularity score was given based on the popularity of their listening history.</li>
+            <li>Heroku used to push and host the website</li>
+            <li>Website: <a href="https://spotify-re.herokuapp.com/">https://spotify-re.herokuapp.com/</a></li><br><br><br>
+          </ul>
+        </div>
+      </div>
+      <div class="NBA-AllStars">
+        <div class = "col-left">
+          <h6 style="text-align: left; font-family: 'Roboto';font-weight: 1000;font-size: 20pt;"><a href="https://github.com/afnan1230/NBA-All-Star-Predictor">NBA All-Star Predictor</a></h6>
+          <img src="/static/img/allstars.png" alt="allstars">
+        </div>
+        <div class = "col-right">
+          <ul style="font-size: 18px;">
+            <br><br><br>
+            <li>Scraped historical data from individual players for their stats in their first 5 years in the league and also whether or not they made an All-Star Team in their career</li>
+            <li>Used this training data to predict whether current young players would become All-Star players in their future</li>
+            <li>Used python, pandas, and scikit-learn libraries to scrape data, fit data to models, explore correlations in data, and make predictions on the data</li>
+          </ul>
+        </div>
+      </div>
+</body>
