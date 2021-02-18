@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/background.jpg") no-repeat center center fixed;
+  height: 100%;
+  display: table;
+  height: 100%;
+  position: relative;
+  bottom: 3%;
+  width: 100%;
+  background-size: cover;
+}
+.title {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  text-shadow: 2px 2px 5px black;
+}
+.title h1 {
+  color: white;
+  padding-bottom: 1rem;
+}
+.title h3 {
+  color: white;
+}
+.navbar {
+    min-height: 36px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 1px;
+    padding: 9px 10px !important;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+background-image {
+    filter: brightness(50%);
+  }
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+
+.about-me {
+  width: 100%;
+}
+#about .col-left{
+  width: 30%;
+  float:left;
+  padding-left: 0%;
+  padding-right: 3%;
+  
+}
+#about .col-right{
+  width: 70%;
+  float: left;
+  padding-top: 3%;
+}
+#about .col-left img{
+    border-radius: 50%;
+    max-width: 100%;
+}
+#about .col-right p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15pt;
+  color: black;
+}
+#coursework{
+  width: 100%;
+}
+#coursework .ECE{
+  padding-top: 2%;
+}
+#projects .col-left{
+  width:15%;
+  float:left;
+}
+#projects img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#projects .col-right{
+  width:85%;
+  float:left;
+}
+#coursework .ECE .ul .li{
+  color: white;
+}
+#projects{
+  width: 100%
+}
+#extracurricular .col-left{
+  width:15%;
+  float:left;
+}
+#extracurricular .col-left .img{
+  max-width: 100%;
+}
+#extracurricular .col-right{
+  width:85%;
+  float:left;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
