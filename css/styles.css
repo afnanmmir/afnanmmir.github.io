@@ -129,8 +129,8 @@ background-image {
   width:15%;
   float:left;
 }
-#extracurricular .col-left .img{
-  max-width: 100%;
+#extracurricular .col-left img{
+    max-width: 100%;
 }
 #extracurricular .col-right{
   width:85%;
