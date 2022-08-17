@@ -1,27 +1,6 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
-// export default function Header() {
-//     const { theme, setTheme } = useTheme();
-//     return (
-//         <div className="mb-20">
-//             <div className="flex flex-row items-center justify-between w-full">
-//                 <div className="w-48 h-48 rounded-full relative overflow-hidden gap-20">
-//                     <Image
-//                         src="/static/Profile.jpg"
-//                         layout="fill"
-//                         objectFit="contain"
-//                     />
-//                 </div>
-//                 <div className="text-left">
-//                     <p>
-//                         Hello my name is Afnan Mir, and I am a third year student at the University of Texas
-//                     </p>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// }
 export default function Header() {
     const { theme, setTheme } = useTheme();
     return (

@@ -1,0 +1,78 @@
+import * as React from 'react'
+
+export function TableElement({ title, subtitle, date }){
+    return (
+        <p className="flex items-center space-x-4 group">
+            <strong className="flex-none font-medium text-gray-900 dark:text-gray-100">
+                {title}
+            </strong>
+            <span className="w-full border-t border-gray-300 border-solid shrink dark:border-gray-800"/>
+            {subtitle && <span className="flex-none font-mono text-quaternary hidden md:flex">{subtitle}</span>}
+            {date && <span className="flex-none font-roboto text-quaternary hidden md:flex">{date}</span>}
+        </p>
+    );
+}
+
+export function SectionTitle({ title }){
+    return (
+        <div className="flex items items-center space-x-4 group">
+            <h2 className="flex-none text-2xl font-semibold text-primary">
+                { title }
+            </h2>
+            <span className="w-full border-gray-500 border-solid border-t"></span>
+        </div>
+    );
+}
+
+export function SectionContainer(props) {
+    return (
+      <div
+        className="grid items-start grid-cols-1 gap-y-8"
+        {...props}
+      />
+    )
+}
+
+export function MusicContainer({ title, description, src }){
+  return (
+    <>
+      <p className="flex items-baseline space-x-4 group">
+        <strong className="flex-none font-medium text-gray-900 dark:text-gray-100">
+          {title}
+        </strong>
+        {description && <span className="flex-none font-mono text-quaternary hidden md:flex text-gray-700">{description}</span>}
+      </p>
+      {src && <iframe className="rounded-xl" src={ src } width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>}
+    </>
+    
+    
+  );
+}
+
+const Container = React.forwardRef(
+    (props, ref) => {
+      return (
+        <div
+          ref={ref}
+          id="main"
+          className="relative flex max-h-screen w-full flex-col overflow-y-auto"
+          {...props}
+        />
+      )
+    }
+  )
+  Container.displayName = "Container";
+  
+  function ContentContainer(props) {
+    return (
+      <div
+        className="mx-auto w-full max-w-3xl px-4 pb-32 md:px-8 md:pt-2"
+        {...props}
+      />
+    )
+  }
+  
+  export const Detail = {
+      Container,
+      ContentContainer,
+  }

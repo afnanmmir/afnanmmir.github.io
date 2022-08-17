@@ -5,7 +5,7 @@ import Image from "next/image";
 export function NavBar(){
     const { theme, setTheme } = useTheme();
     return (
-        <nav className="flex items-center justify-between flex-wrap p-6">
+        <nav className="flex items-start justify-between flex-wrap p-6">
             <div className="flex items-center flex-shrink-0 ml-0 md:ml-4 mr-6">
                 <Link href="/">
                     <a className="inline-block text-primary text-xl md:text-2xl font-semibold">
