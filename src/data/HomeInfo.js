@@ -26,11 +26,6 @@ const music = [
         src: "https://open.spotify.com/embed/playlist/4DSctVwyuYHndxK8UpEw7K?utm_source=generator"
     },
     {
-        playlistTitle: "The Funk Wav Experience",
-        playlistDescription: "Summer brought to you by Calvin Harris",
-        src: "https://open.spotify.com/embed/playlist/2CgI9s1uVCTxWj4k9OnAOA?utm_source=generator"
-    },
-    {
         playlistTitle: "Tb",
         playlistDescription: "Throwbacks :)",
         src: "https://open.spotify.com/embed/playlist/1QzM0sUGiInIMN7NLMA2ty?utm_source=generator"

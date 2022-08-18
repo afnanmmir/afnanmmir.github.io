@@ -15,12 +15,12 @@ export function NavBar(){
             </div>
             <div className="flex items-center w-auto">
                 <div className="text-sm md:text-base font-normal md:font-medium md:flex-grow">
-                    <Link href="/">
+                    <Link href="/projects">
                         <a className="inline-block mr-4 md:mr-8 text-primary">
                             Projects
                         </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/classes">
                         <a className="inline-block mr-4 md:mr-8 text-primary">
                             Classes
                         </a>
@@ -30,19 +30,11 @@ export function NavBar(){
                             Notes
                         </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/static/pdfs/AfnanMir_Resume_Fall2022.pdf">
                         <a className="inline-block mr-4 md:mr-8 text-primary">
                             Resume
                         </a>
                     </Link>
-                    <Image
-                    src="/static/sun.svg"
-                    width={30}
-                    height={30}
-                    alt="Toggle theme"
-                    className="cursor-pointer toggleTheme"
-                    onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-                    />
                 </div>
             </div>
         </nav>

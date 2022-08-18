@@ -7,7 +7,7 @@ export default function Header() {
         <div className="grid grid-cols-2">
             <div className="w-48 h-48 rounded-full relative overflow-hidden">
                 <Image
-                    src="/static/Profile.jpg"
+                    src="/static/images/Profile.jpg"
                     layout="fill"
                     objectFit="contain"
                 />
