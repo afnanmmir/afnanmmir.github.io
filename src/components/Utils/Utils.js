@@ -43,7 +43,7 @@ export function PageTitle({ title }){
       </p>
       <span className="w-full border-gray-500 border-solid border-t" />
     </div>
-  )
+  );
 }
 
 function Links({ links }){
