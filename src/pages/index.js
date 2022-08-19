@@ -21,42 +21,48 @@ export default function Home() {
             <SectionContainer>
               <SectionTitle title="Work" />
               <div className="flex flex-col space-y-3">
-                {HomeInfo.work.map((element) => (
+                {HomeInfo.work.map((element, index) => (
+                  <div className="" key={index}>
                   <TableElement
                   title={element.title}
                   subtitle={element.position}
                   date={element.date}
                   />
+                  </div>
                 ))}
               </div>
             </SectionContainer>
             <SectionContainer>
               <SectionTitle title="Organizations" />
-              {HomeInfo.organizations.map((element) => (
-                <TableElement
-                title={element.title}
-                subtitle={element.position}
-                date={element.date}
-                />
+              {HomeInfo.organizations.map((element, index) => (
+                <div className="" key={index}>
+                  <TableElement
+                  title={element.title}
+                  subtitle={element.position}
+                  date={element.date}
+                  />
+                </div>
               ))}
             </SectionContainer>
             <SectionContainer>
               <SectionTitle title="Music" />
-              {HomeInfo.music.map((playlist) => (
-                <MusicContainer
-                title={playlist.playlistTitle}
-                description={playlist.playlistDescription}
-                src={playlist.src}
-                />
+              {HomeInfo.music.map((playlist, index) => (
+                <div className="" key={index}>
+                  <MusicContainer
+                  title={playlist.playlistTitle}
+                  description={playlist.playlistDescription}
+                  src={playlist.src}
+                  />
+                </div>
               ))}
             </SectionContainer>
             <SectionContainer>
               <SectionTitle title="Links" />
               <p className="flex flex-row justify-around items-baseline space-x-4 group">
-                <a className="font-medium text-gray-900 dark:text-gray-100" href="linkedin.com/in/afnan-mir/">LinkedIn</a>
-                <a className="font-medium text-gray-900 dark:text-gray-100" href="linkedin.com/in/afnan-mir/">Github</a>
-                <a className="font-medium text-gray-900 dark:text-gray-100" href="linkedin.com/in/afnan-mir/">Email</a>
-                <a className="font-medium text-gray-900 dark:text-gray-100" href="linkedin.com/in/afnan-mir/">Spotify</a>
+                <a className="font-medium text-gray-900 dark:text-gray-100" href="https://www.linkedin.com/in/afnan-mir/">LinkedIn</a>
+                <a className="font-medium text-gray-900 dark:text-gray-100" href="https://github.com/afnanmmir">Github</a>
+                <a className="font-medium text-gray-900 dark:text-gray-100" href="mailto:afnanmir@utexas.edu">Email</a>
+                <a className="font-medium text-gray-900 dark:text-gray-100" href="https://open.spotify.com/user/afnan1230?si=3bad0415e7f14c24">Spotify</a>
               </p>
             </SectionContainer>
           </div>
