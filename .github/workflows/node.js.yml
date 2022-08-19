@@ -29,7 +29,6 @@ jobs:
       - run: npm run build
       - run: npm run export
       - run: touch ./out/.nojekyll
-      - run: gh-pages -d out -t true
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
