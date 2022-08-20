@@ -25,7 +25,7 @@ export function NavBar(){
                             Classes
                         </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/AfnansNotes">
                         <a className="inline-block mr-4 md:mr-8 text-primary">
                             Notes
                         </a>
