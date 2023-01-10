@@ -1,5 +1,32 @@
 export const ProjectData = [
     {
+        title: "Shot Predictor",
+        description: "Built a machine learning pipeline that utilizes deep learning based pose estimation networks to predict the outcome of a free throw in basketball. The model achieved an accuracy of 0.726 and ROC-AUC score of 0.794.",
+        tools: [
+            "Python",
+            "Tensorflow",
+            "Scikit-learn",
+            "Pose Estimation"
+        ],
+        links: {
+            "Github": "https://github.com/afnanmmir/Shot-Predictor"
+        }
+    },
+    {
+        title: "LoFi Music Generator",
+        description: "Used deep learning techniques such as Recurrent Neural Networks (RNNs) and Variational Auto-Encoders (VAEs) to produce a generative model that outputted new LoFI hip-hop music in the form of a MIDI file.",
+        tools: [
+            "Python",
+            "Tensorflow",
+            "Deep Learning",
+            "Generative Models"
+        ],
+        links: {
+            "Github": "https://github.com/afnanmmir/460J_Final",
+            "Medium Article": "https://medium.com/@jvasilyev415/using-deep-learning-techniques-to-generate-lofi-music-b039ed64ebc1"
+        }
+    },
+    {
         title: "NBA Game Predictor",
         description: "A side project where I scraped historical NBA game data as well as advanced team statistics and trained a model to predict the result of games in the current season. I used pandas and numpy to clean the data, matplotlib and seaborn to visualize the data, and the Random Forest and Logistic Regression models in Scikit-learn to perform the classifications.",
         tools: [
