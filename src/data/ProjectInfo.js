@@ -1,5 +1,20 @@
 export const ProjectData = [
     {
+        title: "Research Paper Summarizer",
+        description: "Finetuned a base T5 model that would take technical abstracts from research papers and generate a readable summary of the paper. The model was finetuned using the HuggingFace transformers library and the Trainer API, and it achieved a ROUGE-1 score of 0.403590 and a ROUGE-2 score of 0.124948. A demo of this was also created using Streamlit.",
+        tools:[
+            "Python",
+            "Large Language Models",
+            "Streamlit",
+            "HuggingFace",
+            "Pytorch"
+        ],
+        links: {
+            "Github": "https://github.com/afnanmmir/Research-Paper-Summarizer",
+            "Streamlit Demo": "https://jaykumarpatel4802-streamlit-demo-app-9ajr2q.streamlit.app/"
+        }
+    },
+    {
         title: "Shot Predictor",
         description: "Built a machine learning pipeline that utilizes deep learning based pose estimation networks to predict the outcome of a free throw in basketball. The model achieved an accuracy of 0.726 and ROC-AUC score of 0.794.",
         tools: [
