@@ -71,5 +71,64 @@ export const ClassInfo = [
             "Use foundational topics to expand into Bayesian and Classical inferencing techniques and Hypothesis testing",
             "An introduction into random processes such as Discrete Time Markov Chains and Poisson processes."
         ]
+    },
+    {
+        title: "ECE461S - Operating Systems",
+        professor: "Yerraballi",
+        link: "/static/pdfs/ECE461S_Syllabus.pdf",
+        description:[
+            "Learn the fundamentals of operating systems such as process management, memory management, and file systems",
+            "Explore topics such as concurrency, synchronization, and deadlock",
+            "Created a simple shell program in C from scratch as well as a toy operating system 'PintOS' in C"
+        ]
+    },
+    {
+        title: "ECE460J - Data Science Laboratory",
+        professor: "Dimakis",
+        link: "/static/pdfs/ECE460J_Syllabus.pdf",
+        description: [
+            "Learned the fundamentals of building machine learning and deep learning models using data to perform prediction, inference, and generation",
+            "Explored topics such as linear regression, logistic regression, neural networks, and convolutional neural networks, etc.",
+            "Participated in a class-wide Kaggle competition to perform binary classification on synthetic data and achieved 1st place in the class",
+            "Built a LoFi music generator using RNN's and VAE's as a final project"
+        ]
+    },
+    {
+        title: "ECE379K - Computer Vision",
+        professor: "Yang",
+        link: "https://vita-group.github.io/fall_22.html",
+        description: [
+            "Learned the fundamentals or computer vision and 'teaching machines how to see'.",
+            "Explored topics such as convolution, edge detection, keypoint detection/correspondence, camera models, and machine/deep learning for computer vision",
+            "Built a basketball shot predictor using deep learning based pose estimation and gradient boosted trees."
+        ]
+    },
+    {
+        title: "ECE361E - Edge AI/ML",
+        professor: "Marcalescu",
+        description: [
+            "Learned about performing machine learning and deep learning on edge devices such as microcontrollera and FPGAs",
+            "Explored topics such as quantization, pruning, efficient neural architectures, and Neural Architecture Search",
+            "Explored the interation between model design and affects on hardware (temperature, power, etc.)"
+        ]
+    },
+    {
+        title: "LIN373N - Machine Learning Toolbox for Text Analysis",
+        professor: "Li",
+        link: "https://jessyli.com/courses/lin373n",
+        description: [
+            "Learned the fundamentals of natural language processing for text analysis, classification, and generation",
+            "Explored topics such as n-gram models, word embeddings, recurrent neural networks, and transformers",
+            "Built a Research Paper Summarizer by finetuning a pretrained T5 model on a dataset of research papers with assoicated plain language summaries" 
+        ]
+    },
+    {
+        title: "ECE445S - Real Time Digital Signal Processing Lab",
+        professor: "Evans",
+        link: "https://users.ece.utexas.edu/~bevans/courses/realtime/handouts/description/index.html",
+        description: [
+            "Learned about topics in digital signal processing such as sampling, filtering, modulation, and demodulation",
+            "Applied these topics on an ARM microcontroller by implementing a transmitter and receiver in C",
+        ]
     }
 ]
