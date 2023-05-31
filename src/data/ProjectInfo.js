@@ -1,5 +1,23 @@
 export const ProjectData = [
     {
+        title: "UT Course Search",
+        description: "Built a semantic search engine for UT courses using OpenAI embeddings API and Pinecone Vector Database. Additionally, used LlamaIndexing with ChatGPT API to provide users with a chat-like answer to their queries about courses. Used Next.js to build the frontend, Flask to build to backend, Pinecone for the vector database, and Docker/Google Cloud Platform to deploy the application.",
+        tools: [
+            "Python",
+            "Large Language Models",
+            "Embeddings",
+            "LlamaIndexing",
+            "Pinecone Vector Database",
+            "Next.js",
+            "Docker",
+            "Google Cloud Platform"
+        ],
+        links: {
+            "Github": "https://github.com/afnanmmir/ut_course_search/",
+            "Website": "https://ut-course-search-5e5ddpxplq-uc.a.run.app/"
+        }
+    },
+    {
         title: "Research Paper Summarizer",
         description: "Finetuned a base T5 model that would take technical abstracts from research papers and generate a readable summary of the paper. The model was finetuned using the HuggingFace transformers library and the Trainer API, and it achieved a ROUGE-1 score of 0.403590 and a ROUGE-2 score of 0.124948. A demo of this was also created using Streamlit.",
         tools:[
