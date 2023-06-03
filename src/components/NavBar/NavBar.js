@@ -30,7 +30,7 @@ export function NavBar(){
                             Notes
                         </a>
                     </Link>
-                    <Link href="/static/pdfs/AfnanMir_Resume_Fall2022.pdf">
+                    <Link href="/static/pdfs/AfnanMir_ResumeFall2023.pdf">
                         <a className="inline-block mr-4 md:mr-8 text-primary">
                             Resume
                         </a>
