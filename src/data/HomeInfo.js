@@ -1,6 +1,11 @@
 const work = [
     {
         title: "Amazon",
+        date: "May 2023 - Aug 2023",
+        position: "Software Engineering Intern"
+    },
+    {
+        title: "Amazon",
         date: "May 2022 - Aug 2022",
         position: "Software Engineering Intern"
     },
@@ -22,7 +27,7 @@ const organizations = [
 const music = [
     {
         playlistTitle: "🤮",
-        playlistDescription: "The ultimate workout playlist",
+        playlistDescription: "My workout playlist",
         src: "https://open.spotify.com/embed/playlist/4DSctVwyuYHndxK8UpEw7K?utm_source=generator"
     },
     {
