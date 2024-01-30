@@ -4,7 +4,7 @@ export const ClassInfo = [
         professor: "Gligoric",
         link: "http://users.ece.utexas.edu/~gligoric/teaching/ee312-sp19/syllabus.pdf",
         description: [
-            "Learn the basics of C and C++ programming langauges",
+            "Learn the basics of C and C++ programming languages",
             "Introduction to data structures such as linked lists, binary search trees, and hashmaps",
             "Explore topics in software design such as object oriented programming, time complexity analysis, and recursion",
             "Implemented algorithms such as sorting and various binary search tree algorithms"
@@ -99,27 +99,27 @@ export const ClassInfo = [
         link: "https://vita-group.github.io/fall_22.html",
         description: [
             "Learned the fundamentals or computer vision and 'teaching machines how to see'.",
-            "Explored topics such as convolution, edge detection, keypoint detection/correspondence, camera models, and machine/deep learning for computer vision",
+            "Explored topics such as convolution, edge detection, key-point detection/correspondence, camera models, and (deep) machine learning for computer vision",
             "Built a basketball shot predictor using deep learning based pose estimation and gradient boosted trees."
         ]
     },
     {
         title: "ECE361E - Edge AI/ML",
-        professor: "Marcalescu",
+        professor: "Marculescu",
         description: [
-            "Learned about performing machine learning and deep learning on edge devices such as microcontrollera and FPGAs",
+            "Learned about performing machine learning and deep learning on edge devices such as microcontrollers and FPGAs",
             "Explored topics such as quantization, pruning, efficient neural architectures, and Neural Architecture Search",
-            "Explored the interation between model design and affects on hardware (temperature, power, etc.)"
+            "Explored the interaction between model design and effects on hardware (temperature, power, etc.)"
         ]
     },
     {
         title: "LIN373N - Machine Learning Toolbox for Text Analysis",
         professor: "Li",
-        link: "https://jessyli.com/courses/lin373n",
+        link: "https://jessyli.com/courses/lin373n_s23",
         description: [
             "Learned the fundamentals of natural language processing for text analysis, classification, and generation",
             "Explored topics such as n-gram models, word embeddings, recurrent neural networks, and transformers",
-            "Built a Research Paper Summarizer by finetuning a pretrained T5 model on a dataset of research papers with assoicated plain language summaries" 
+            "Built a Research Paper Summarizer by finetuning a pretrained T5 model on a dataset of research papers with associated plain language summaries" 
         ]
     },
     {
@@ -129,6 +129,26 @@ export const ClassInfo = [
         description: [
             "Learned about topics in digital signal processing such as sampling, filtering, modulation, and demodulation",
             "Applied these topics on an ARM microcontroller by implementing a transmitter and receiver in C",
+        ]
+    },
+    {
+        title: "ECE382V - Programming Paradigms",
+        professor: "Gligoric",
+        link: "/static/pdfs/ECE382V_Syllabus.pdf",
+        description: [
+            "Learned about various programming paradigms and different programming languages that implement these paradigms",
+            "Explored topics such as functional programming (OCaml), object oriented programming (Smalltalk, Go), and declarative programming (SQL, Cypher), and concurrent programming (CSP, Linda)",
+            "Learned about the frontend of a compiler such as lexical analysis, parsing, and semantic analysis and implemented a lexer, parser, and semantic analyzer for a toy language using Java and ANTLR",
+            "Built an application utilizing multiple programming paradigms to process and execute Cypher queries on a graph database, and visualize the graph using Smalltalk and OCaml"
+        ]
+    },
+    {
+        title: "ECE381K - Machine Learning on Real World Networks",
+        professor: "Marculescu",
+        description: [
+            "Learned about network science and graph theory on real world networks such as social networks, transportation networks, and biological networks",
+            "Explored machine learning techniques on graphs such as graph embeddings and graph neural networks (Graph Convolutional Networks, Graph Attention Networks, etc.)",
+            "Built a graph neural network to predict contact tracing patterns on mobility dataset in Austin, TX"
         ]
     }
 ]

@@ -1,5 +1,19 @@
 export const ProjectData = [
     {
+        title: "Automating Contact Tracing",
+        description: "Utilized graph neural networks to build a model that would attempt to predict contact tracing patterns on a mobility dataset in Austin, TX. One iteration of this project attempted to predict contact between individuals on a static network based on a contact network generated over 5 days of mobility data. Another iteration of this project attempted to predict contact between individuals on a dynamic contact network that would change every day. For the static network, the model achieved an ROC-AUC score of 0.91, and for the dynamic network, the model achieved an ROC-AUC score of 0.79.",
+        tools: [
+            "Python",
+            "Graph Neural Networks",
+            "Graph Convolutional Networks",
+            "Deep Graph Library (DGL)",
+            "NetworkX",
+        ],
+        links: {
+            "Github": "https://github.com/afnanmmir/Infection-Tracing"
+        }
+    },
+    {
         title: "UT Course Search",
         description: "Built a semantic search engine for UT courses using OpenAI embeddings API and Pinecone Vector Database. Additionally, used LlamaIndexing with ChatGPT API to provide users with a chat-like answer to their queries about courses. Used Next.js to build the frontend, Flask to build to backend, Pinecone for the vector database, and Docker/Google Cloud Platform to deploy the application.",
         tools: [
