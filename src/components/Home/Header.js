@@ -14,9 +14,9 @@ export default function Header() {
             </div>
             <div className="text-center">
                     <p>
-                        Hello my name is Afnan Mir, and I am a fourth year student at the University of Texas, studying Electrical and Computer Engineering. 
-                        My career interests surround the topics of software engineering, machine learning, and natural language processing, while my hobbies center around
-                        basketball, working out, and various outdoor activities
+                        Hello my name is Afnan Mir. I am currently a Software Engineer at AWS working on systems for financial data reporting. 
+                        My current career interests lie in large scale ML systems and backend engineering, while my hobbies center around
+                        playing basketball, working out, and any other way to stay active.
                     </p>
             </div>
         </div>

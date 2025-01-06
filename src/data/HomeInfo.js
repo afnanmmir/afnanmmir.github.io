@@ -31,11 +31,6 @@ const music = [
         src: "https://open.spotify.com/embed/playlist/4DSctVwyuYHndxK8UpEw7K?utm_source=generator"
     },
     {
-        playlistTitle: "Tb",
-        playlistDescription: "Throwbacks :)",
-        src: "https://open.spotify.com/embed/playlist/1QzM0sUGiInIMN7NLMA2ty?utm_source=generator"
-    },
-    {
         playlistTitle: ".mov",
         playlistDescription: "Movie soundtrack bangers",
         src: "https://open.spotify.com/embed/playlist/5rDWM2q3LMAQ88ga61ulX1?utm_source=generator"
