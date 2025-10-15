@@ -1,5 +1,10 @@
 const work = [
     {
+        title: "Amazon Web Services",
+        date: "July 2024 - Present",
+        position: "Software Engineer"
+    },
+    {
         title: "Amazon",
         date: "May 2023 - Aug 2023",
         position: "Software Engineering Intern"
@@ -19,8 +24,8 @@ const work = [
 const organizations = [
     {
         title: "Longhorn Racing Solar",
-        date: "Oct 2020 - Present",
-        position: "Array Lead"
+        date: "Oct 2020 - May 2024",
+        position: "Power Generation Lead"
     }
 ]
 
@@ -32,7 +37,7 @@ const music = [
     },
     {
         playlistTitle: ".mov",
-        playlistDescription: "Movie soundtrack bangers",
+        playlistDescription: "Scores from Movies and TV Shows",
         src: "https://open.spotify.com/embed/playlist/5rDWM2q3LMAQ88ga61ulX1?utm_source=generator"
     }
 ]

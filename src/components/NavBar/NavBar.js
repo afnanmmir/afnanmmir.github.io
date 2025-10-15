@@ -1,38 +1,33 @@
 import Link from "next/link";
-import { useTheme } from "next-themes";
-import Image from "next/image";
 
 export function NavBar(){
-    const { theme, setTheme } = useTheme();
     return (
-        <nav className="flex items-start justify-between flex-wrap p-6">
-            <div className="flex items-center flex-shrink-0 ml-0 md:ml-4 mr-6">
+        <nav className="max-w-4xl mx-auto px-6 py-8">
+            <div className="flex items-center justify-between">
                 <Link href="/">
-                    <a className="inline-block text-primary text-xl md:text-2xl font-semibold">
+                    <a className="text-xl font-semibold text-white hover:text-purple-400 transition-colors">
                         Afnan Mir
                     </a>
                 </Link>
-            </div>
-            <div className="flex items-center w-auto">
-                <div className="text-sm md:text-base font-normal md:font-medium md:flex-grow">
+                <div className="flex space-x-8">
                     <Link href="/projects">
-                        <a className="inline-block mr-4 md:mr-8 text-primary">
-                            Projects
+                        <a className="text-gray-200 hover:text-purple-400 transition-colors">
+                            projects
                         </a>
                     </Link>
                     <Link href="/classes">
-                        <a className="inline-block mr-4 md:mr-8 text-primary">
-                            Classes
+                        <a className="text-gray-200 hover:text-purple-400 transition-colors">
+                            classes
                         </a>
                     </Link>
                     <Link href="/AfnansNotes">
-                        <a className="inline-block mr-4 md:mr-8 text-primary">
-                            Notes
+                        <a className="text-gray-200 hover:text-purple-400 transition-colors">
+                            writing
                         </a>
                     </Link>
                     <Link href="/static/pdfs/AfnanMir_ResumeFall2023.pdf">
-                        <a className="inline-block mr-4 md:mr-8 text-primary">
-                            Resume
+                        <a className="text-gray-200 hover:text-purple-400 transition-colors">
+                            resume
                         </a>
                     </Link>
                 </div>
